@@ -1,0 +1,761 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/70_TV.usdz",
+            "source_hash": "64aa488367e4d4fe3fdafb9684312c6940df9412",
+            "target_url": "./assets/70_TV.usdz",
+            "target_hash": "f3021cb8124fcd385799bf5cce125c64c612a64a"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/Deck_Chair.usdz",
+            "source_hash": "b59489f5e88689794c965de71767d851127a42ff",
+            "target_url": "./assets/Deck_Chair.usdz",
+            "target_hash": "6370dcd40e2e0297a1e41f6ab0402fb995f75439"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/Desk.usdz",
+            "source_hash": "f5670e942d064ec429e3e382de200ee755a62c1a",
+            "target_url": "./assets/Desk.usdz",
+            "target_hash": "8cdecbdcf45f5b36797865ab5831f5c5307ef518"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/Office_Desk.usdz",
+            "source_hash": "bc12d5c2b57c9209ed5bf70a129d757add01dd32",
+            "target_url": "./assets/Office_Desk.usdz",
+            "target_hash": "45b46d65b0f807706a1b75ea97129f94384e34ae"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/Physics_simulation_blender_test.usdz",
+            "source_hash": "5359c3ae0f5ccc4e463f2c49f2d5998b918ecad0",
+            "target_url": "./assets/Physics_simulation_blender_test.usdz",
+            "target_hash": "8b00ce9ad25286e980075e70be77b77ad45f1995"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/Pine_Tree_FBX_4K.usdz",
+            "source_hash": "79d8091d285c2253df01027a1f89b6f44b685be5",
+            "target_url": "./assets/Pine_Tree_FBX_4K.usdz",
+            "target_hash": "d104fbb3ae1212050de1f5b9318532115042b44b"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/Pool_Ring.usdz",
+            "source_hash": "efc9b97322bc421254ec6a7717b5329338afdd25",
+            "target_url": "./assets/Pool_Ring.usdz",
+            "target_hash": "fb67ba7d2b2e8d29af3b76f826d960045e6cafef"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/Sofa_combination.usdz",
+            "source_hash": "6ab63be823c57eb9d885da4e9f600fd13acc4d02",
+            "target_url": "./assets/Sofa_combination.usdz",
+            "target_hash": "cc916215bf95c9fd7a4b0adef9ddc0b7e88619a2"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/toilet_white.usdz",
+            "source_hash": "f8d274ff17daf585cde8a2ff8c722c4e732493b5",
+            "target_url": "./assets/toilet_white.usdz",
+            "target_hash": "476a12a68e3a1a3ae6f1d82c017bf03a50c59be6"
+        },
+        {
+            "source_url": "/home/rokey/dev_ws/map/assets/uploads_files_5099621_McLaren_P1_GTR_2015.usdz",
+            "source_hash": "24f06948a4213141d4c0e98d2041a37b8f951e8e",
+            "target_url": "./assets/uploads_files_5099621_McLaren_P1_GTR_2015.usdz",
+            "target_hash": "b8d98a593868b6bdcf224a68f899d6177f9a88f9"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Carpet/Fabric_Carpet_Long_Floor.mdl",
+            "source_hash": "73d2aef55fafaa2729ce22ba1bf05207d1808edd",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Carpet/Fabric_Carpet_Long_Floor.mdl",
+            "target_hash": "a733258153d37a83841930f99dcee97ca47b6350"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/Cashmere_Wool_Suiting.mdl",
+            "source_hash": "21f2482e0347897184ba681ef10bed93639b1892",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/Cashmere_Wool_Suiting.mdl",
+            "target_hash": "c84a2e3bc800db3067edcf369e0f34d68f0eec3f"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/Fabric_Cotton_Pique_Weave.mdl",
+            "source_hash": "089b8808812713ab955f49871f0553411d01fbb2",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/Fabric_Cotton_Pique_Weave.mdl",
+            "target_hash": "78eed89369f437160aaec1bf0a4da257a43bd607"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/ABS_Hard_Leather.mdl",
+            "source_hash": "01814efd52850223d1941b5c63abb710fd19a23c",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/ABS_Hard_Leather.mdl",
+            "target_hash": "5462b56db7c6f115f3315b751b2a38a6aa0f7e5b"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/ABS_Woven_Leather.mdl",
+            "source_hash": "fc19407dcfde32d3c193e59b736cc8ba027b01a0",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/ABS_Woven_Leather.mdl",
+            "target_hash": "92297643257e7becb06321911cb5dab7f19cb348"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Liquids/Water_Blue_Ocean_Perlinwaves.mdl",
+            "source_hash": "b94226e7d0f957db046b3692f9b90554cd1242f4",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Liquids/Water_Blue_Ocean_Perlinwaves.mdl",
+            "target_hash": "2228335e1fb2d9baa7db24f0f66120a72814d795"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/Rosa_Beta.mdl",
+            "source_hash": "6b4cbf359a9447a324882cd65a3ec4b5a51b6158",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/Rosa_Beta.mdl",
+            "target_hash": "52d124e284c563198f0b3379ec38ebfb998b00d9"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/Star_Galaxy.mdl",
+            "source_hash": "5dbb37a16f4c021ffc99689fa1ce08f2d8305df4",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/Star_Galaxy.mdl",
+            "target_hash": "b6d5c5ec7c3bb02364558247b03bf72ff4841113"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Chrome.mdl",
+            "source_hash": "f07e96c232e0e5575eef753a11661d4c1160eacd",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Chrome.mdl",
+            "target_hash": "ee6b578c93c36f1975a491546e16d8ec78813c7e"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/Facade_Brick_Red_Clinker.mdl",
+            "source_hash": "0e6a6cdc9d65090ce17d23a285cc408431b70506",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/Facade_Brick_Red_Clinker.mdl",
+            "target_hash": "a50cc2b9fe0ff708be25bad6d0515abb4a4e6f03"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Stone/Gravel_River_Rock.mdl",
+            "source_hash": "b5002a28a74626ea424dd0b6b787e8ace933f3e1",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Stone/Gravel_River_Rock.mdl",
+            "target_hash": "707cfc56060d2d7e2437f4bb202141bd99681243"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/Chalk_Paint.mdl",
+            "source_hash": "150caac385809d2357afef412a5aee8f5275a871",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/Chalk_Paint.mdl",
+            "target_hash": "0d6c3eb03562a0f166c7ce79f9727ea59442ceed"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/Chalk_Paint_Pebbles.mdl",
+            "source_hash": "71753e5a7ca4370afcce3d96e5c316f95566f003",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/Chalk_Paint_Pebbles.mdl",
+            "target_hash": "e6585b1178b4f3ff3d79798b054cbef1fbba5c67"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Glass/Green_Glass.mdl",
+            "source_hash": "46cdeafb7b595d1ed66341c51a24b407b26acedb",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Glass/Green_Glass.mdl",
+            "target_hash": "d78e10c81a79e4e9ec054ea179a9bdd082ac775e"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/Facade_Plaster_Rough.mdl",
+            "source_hash": "e664bed492778ff1a54cdd8c5b6db3ba7ad7ee02",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/Facade_Plaster_Rough.mdl",
+            "target_hash": "38c7562726e88a6e3075a26d996805f780446bbb"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/Plaster_Wall.mdl",
+            "source_hash": "61f94266756dbd78bf80c08ce1620e31f03cccce",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/Plaster_Wall.mdl",
+            "target_hash": "a87d9463af5a87485a0974d10459e9bbb88cab09"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/Cobblestone_Big_and_Loose.mdl",
+            "source_hash": "17c105faa62e62302062271e8954cbbd2d11c4c0",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/Cobblestone_Big_and_Loose.mdl",
+            "target_hash": "85ba07f9819f6f810ddf25f685ffb0880f44c948"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/Ground_Hard_Court.mdl",
+            "source_hash": "bda1414fff4dd99f7a7a87b8539e36fb38fee72f",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/Ground_Hard_Court.mdl",
+            "target_hash": "f43cfbdda7732471e0059f00cf6f64a92778a779"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/Small_Cobblestone.mdl",
+            "source_hash": "25c8ab22221e7280f1fd62f9e51be62153c2a22b",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/Small_Cobblestone.mdl",
+            "target_hash": "16f4f564c53c726f3253c88fe8e13b58533f0dd1"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Cherry_Planks.mdl",
+            "source_hash": "401b0bad05bec690e29f7a99362edb8c5aee65bd",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Cherry_Planks.mdl",
+            "target_hash": "691e89f279eabd1e2f6138e4345a75011d653913"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Parquet_Floor.mdl",
+            "source_hash": "8ad3dedbb3f57aa15d0d8eafc28e763c93c32246",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Parquet_Floor.mdl",
+            "target_hash": "9eb0272a2b0fab18ec1947105393adf1e03c74e8"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/Ceramic_Tiles_Glazed_Diamond.mdl",
+            "source_hash": "40fdeff71546c385ee815af9d52a2bb6aa8615ca",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/Ceramic_Tiles_Glazed_Diamond.mdl",
+            "target_hash": "695e731b970240663c0a0d5aebbbe73ff33ea372"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Countryside.mdl",
+            "source_hash": "d6802946d61296e8e56463a57a2f377e5995ec0f",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Countryside.mdl",
+            "target_hash": "b6075f24b6eee1b4eb06aefb498037139b11c7ef"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Cut.mdl",
+            "source_hash": "ae73eac11e454a9a8c7f89d7862a07b32062a3e4",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Cut.mdl",
+            "target_hash": "929a33f905c911a720f06503245eef07da4b52fb"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Leaves.mdl",
+            "source_hash": "c7332c9caca2402831ef9e6e349b24015bc92460",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Leaves.mdl",
+            "target_hash": "c651ffbb0d832a50d272f915b0a0aab50ed800aa"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Mulch_Brown.mdl",
+            "source_hash": "66071f5e8b89b1b14b8dc1ab6650b89f242e2e2e",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Mulch_Brown.mdl",
+            "target_hash": "fee7c477c94f282c208fccc54a4e099747c41689"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/Aluminum_Foil.mdl",
+            "source_hash": "9e1fe737c9f9f02469a33c87799e73374d272c74",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/Aluminum_Foil.mdl",
+            "target_hash": "5cb82789cddf4ec4d15fdde15d8f7113eaeafad0"
+        },
+        {
+            "source_url": "/home/rokey/Downloads/House_Floor_Plan.usdz",
+            "source_hash": "cc86d39a0f1fa8d7af06e0e5ff3a63c1ba73c6e1",
+            "target_url": "./Downloads/House_Floor_Plan.usdz",
+            "target_hash": "8019e5cf16cb8d9d1996ef8503f7df02bbabc7b9"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Countryside/Grass_Countryside_BaseColor.png",
+            "source_hash": "7052bbbb54891d42beda8f7b59c336fa1051051f",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Countryside/Grass_Countryside_BaseColor.png",
+            "target_hash": "508203bc5a46041017ef3b2ec58e15fb779ba094"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Chrome/Chrome_BaseColor.png",
+            "source_hash": "3af6031fefe052281afdfa79f1c659713146a38a",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Chrome/Chrome_BaseColor.png",
+            "target_hash": "a5f32afbd0f6c460c0ab32a0626976c41646ca95"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Parquet_Floor/Parquet_Floor_BaseColor.png",
+            "source_hash": "b1aab5626b20ac7060a0b298fa2d451c96607d5a",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Parquet_Floor/Parquet_Floor_BaseColor.png",
+            "target_hash": "d258f45d0fa73835faed7391709bc3bf0ae52daa"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Cut/Grass_Cut_BaseColor.png",
+            "source_hash": "829a7344d1c2c7ae13de21dade4ed046732b0124",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Cut/Grass_Cut_BaseColor.png",
+            "target_hash": "3000e23a6e4a84e55ced2c289339f9a9154a0b16"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Leaves/Leaves_BaseColor.png",
+            "source_hash": "dd6843358b8dd68665c97ca2a82e99d25a4bc7da",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Leaves/Leaves_BaseColor.png",
+            "target_hash": "ca528cf4da08445e19a1429d22d6a30a29d83f4c"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Cherry_Planks/Cherry_Planks_BaseColor.png",
+            "source_hash": "685a743339e934bdd64ff3f6eaae2e065f433395",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Cherry_Planks/Cherry_Planks_BaseColor.png",
+            "target_hash": "6d9ba73e34ddbeb93e3f1554a55541f0710f779f"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Mulch_Brown/Mulch_Brown_baseColor.png",
+            "source_hash": "77fa9efd3cfbb22f19a2c66b549058ddd0fff9ab",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Mulch_Brown/Mulch_Brown_baseColor.png",
+            "target_hash": "169df4cd78749f6be39d87abec86176ad7022184"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Stone/Gravel_River_Rock/Gravel_River_Rock_BaseColor.png",
+            "source_hash": "d5313a60063f9439bc18b895dfd5f3c26a152310",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Stone/Gravel_River_Rock/Gravel_River_Rock_BaseColor.png",
+            "target_hash": "d532cabf00197684a5112b1bf2a2e4bd71f5cbfa"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Templates/GlassWithVolume.mdl",
+            "source_hash": "fed4132a19e9a12998669aa3dedbec6a941cd407",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Templates/GlassWithVolume.mdl",
+            "target_hash": "4a17957604fd0534c78ddadadcec1d5409de3b5b"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Cut/Grass_Cut_ORM.png",
+            "source_hash": "ba889c96355e5368314f95aca7c6d8844e25b0ee",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Cut/Grass_Cut_ORM.png",
+            "target_hash": "8fb76ea8a2d068d54ae9718990ae6ebad50fb450"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Cherry_Planks/Cherry_Planks_ORM.png",
+            "source_hash": "a738801cb1c8df8c27bdc1e877673c544853064f",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Cherry_Planks/Cherry_Planks_ORM.png",
+            "target_hash": "f94db521249333b3038efedb30fadfca6f11cc4e"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Countryside/Grass_Countryside_ORM.png",
+            "source_hash": "5951c497e894c37054617d257c525b3404b9696c",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Countryside/Grass_Countryside_ORM.png",
+            "target_hash": "f4e91adeccb74dc9c784b5d610c02daa11c389ed"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Parquet_Floor/Parquet_Floor_ORM.png",
+            "source_hash": "caf84c02ea2b17bd66749db0511137848396575e",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Parquet_Floor/Parquet_Floor_ORM.png",
+            "target_hash": "14afe573771d353d6aebf7860a4a9351ec365d1c"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Leaves/Leaves_ORM.png",
+            "source_hash": "f08c6bc53f8df27f3cdac6e523f03e2f0ddc5ab6",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Leaves/Leaves_ORM.png",
+            "target_hash": "08e87704454b0b2bd1997f64255f412bd0b73017"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Chrome/Chrome_ORM.png",
+            "source_hash": "279a347cfbb93a1b547a1b87636e7df1fd733d83",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Chrome/Chrome_ORM.png",
+            "target_hash": "cc31e08851a63aeb72504db89344b45ce2b671ea"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Cut/Grass_Cut_Normal.png",
+            "source_hash": "2d4380c4a2b8d1a1ccbdcbb4435d2d2d601513f9",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Cut/Grass_Cut_Normal.png",
+            "target_hash": "b72c0a76c2588c695b1de440c77e8a8b207c23e2"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Cherry_Planks/Cherry_Planks_N.png",
+            "source_hash": "a91046c2caedb28def6105f6d44175759a86a8a7",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Cherry_Planks/Cherry_Planks_N.png",
+            "target_hash": "7976ec7dbe501ae194156a963dfc1af5fb4621a0"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Countryside/Grass_Countryside_Normal.png",
+            "source_hash": "354c3c581f7baff336aadd468eae247e9e311be8",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Grass_Countryside/Grass_Countryside_Normal.png",
+            "target_hash": "f2a45187fcb9889b767ba3de55366dd6b0f5d5c7"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Parquet_Floor/Parquet_Floor_N.png",
+            "source_hash": "80809dc7709b24f5606dac4f89bef96f9169426c",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Parquet_Floor/Parquet_Floor_N.png",
+            "target_hash": "200b40d3da9f69e2dc5fd42ee006544e0ef60ff5"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Leaves/Leaves_N.png",
+            "source_hash": "8b5841670e970c562b70cdaf046619575344ccb6",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Leaves/Leaves_N.png",
+            "target_hash": "5f9c1b2e3b829cf078b4f0938c381137dcba3c94"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Chrome/Chrome_N.png",
+            "source_hash": "c473a9b0fd6dac11fbc7f95ecf2374351aba1428",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Chrome/Chrome_N.png",
+            "target_hash": "28509be09068b64bf63b92ab1437b8989e11dd71"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/pique_weave_multi_R_rough_G_ao_B_height.jpg",
+            "source_hash": "7aaef5fae48c7f19e4b6823461edd5055f30d812",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/pique_weave_multi_R_rough_G_ao_B_height.jpg",
+            "target_hash": "b5e6977a717ed49f6cdba588f8048beb9340f1e4"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/pique_weave_diff.jpg",
+            "source_hash": "2e5df3bb9b9c46d29b3bf19bf4ff38beb5d346f9",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/pique_weave_diff.jpg",
+            "target_hash": "4b2d272442eb8b334013d049025c2bd052c99770"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/pique_weave_norm.jpg",
+            "source_hash": "941fc4f91b50b8e8be4de83aabdfc0c327ec0602",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/pique_weave_norm.jpg",
+            "target_hash": "4da08ea80764a8041ec32952010ade8a8dbd334e"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Templates/GlassUtils.mdl",
+            "source_hash": "7d37a489c1b54bc0562bed3a0c3a4cf7193bf1b9",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Templates/GlassUtils.mdl",
+            "target_hash": "369090feae1c37123649bcca3a56ada264879db0"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_multi_R_rough_G_ao_B_height.jpg",
+            "source_hash": "0ee6829479e397d49f5d74e3b0fbe43dd066d232",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_multi_R_rough_G_ao_B_height.jpg",
+            "target_hash": "71f688a084ff9442350e4ff6dbad337aa779627a"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Mulch_Brown/Mulch_Brown_ORM.png",
+            "source_hash": "764ad2091c84902b8515f4d41c42169cf182297a",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Mulch_Brown/Mulch_Brown_ORM.png",
+            "target_hash": "93b06d071edacb685128e462e9c2c4072715ba53"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Stone/Gravel_River_Rock/Gravel_River_Rock_ORM.png",
+            "source_hash": "2f5995ed606765bb893018323539c5a919ce9b10",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Stone/Gravel_River_Rock/Gravel_River_Rock_ORM.png",
+            "target_hash": "de0830f9744e0f69db2a8c1992c403b0db8220d1"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Mulch_Brown/Mulch_Brown_N.png",
+            "source_hash": "a737f48404d9b063524f81a9012ed703d29d8a94",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Natural/Mulch_Brown/Mulch_Brown_N.png",
+            "target_hash": "171c3745149dfd29806aa9543170103aa1d98eb5"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Stone/Gravel_River_Rock/Gravel_River_Rock_Normal.png",
+            "source_hash": "7432ad53ef35cb52e15ec3800e80c551c284b11c",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Stone/Gravel_River_Rock/Gravel_River_Rock_Normal.png",
+            "target_hash": "db707d33a007a6e6cb51ff80960dab3f7771ef37"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/painted_wall_rough.jpg",
+            "source_hash": "1926705102c1a55f18c3fa73bab85a28ff0a1b35",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/painted_wall_rough.jpg",
+            "target_hash": "5cfee32a3180f7682b22a8b0e6f542ba50dcbc0c"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_rough.jpg",
+            "source_hash": "2023811faa005dc982119c27acc4071a23fcf1e3",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_rough.jpg",
+            "target_hash": "2ca9dc8da229214386c7f842a11d61f1b67ca2ec"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_mask_multi_R_rnd_color_G_grout_B_leaks.jpg",
+            "source_hash": "3db5c5e3bfd6ab990a6345dd72054a9e8b0c26de",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_mask_multi_R_rnd_color_G_grout_B_leaks.jpg",
+            "target_hash": "a4c1f6b0fc30c94b81771401ab5d9de9a7a4ebec"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_diff.jpg",
+            "source_hash": "65506735fffce2b0136be4696661f0e13692e20d",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_diff.jpg",
+            "target_hash": "4a20820813ffa3e3a8bb722e0c1b818dc0ec9d0d"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_paint_stroke_bump.jpg",
+            "source_hash": "fb65e0923579550bd1f64981b42c298be5189c77",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_paint_stroke_bump.jpg",
+            "target_hash": "39d3d11d1eeb01fb3bf6cd16392cc6126352d835"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_norm.jpg",
+            "source_hash": "ed118b36a45de4967ffd0de4691bbaaa02273ec2",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Masonry/textures/clinker_norm.jpg",
+            "target_hash": "c8c978a0c132faab31b04a09387025eb3a6e9809"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_tiny_multi.jpg",
+            "source_hash": "118de7eb75ea0d997a85d0f8fd64a8662d12c4a3",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_tiny_multi.jpg",
+            "target_hash": "b2d03e5ab080f9ffcd0be7ac58b01c84b76557b2"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_big_and_loose_multi_R_rough_G_ao_B_height.jpg",
+            "source_hash": "955421d0d39e9f0e7c5ae86130e5926ed28f78b9",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_big_and_loose_multi_R_rough_G_ao_B_height.jpg",
+            "target_hash": "d413343aecd21ea58d494b61761f1db10f16b41a"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_wall_multi_r_ao_g_grunge_b_diff.jpg",
+            "source_hash": "856b941fabc69374c7d758fa98f8fa69f64e7e1b",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_wall_multi_r_ao_g_grunge_b_diff.jpg",
+            "target_hash": "6c719b23f66ed53dec13f5aa8365a3d2e3368eb1"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_wall_multi_r_rough_g_cracksmask_b_grunge2.jpg",
+            "source_hash": "e7f6ef6975ae56d0ed5d072d923b52021f7ccf1a",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_wall_multi_r_rough_g_cracksmask_b_grunge2.jpg",
+            "target_hash": "08b515c377ebbd8c75ccfe61384e793a2b51fb1b"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_tiny_mask.jpg",
+            "source_hash": "88632d7345ce5674fe631b570cba803573dc8168",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_tiny_mask.jpg",
+            "target_hash": "6d17773aeaa6e16406d9165d232c46e1b1084813"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_big_and_loose_mask.png",
+            "source_hash": "86d54ee48facadd1c94d5821ff88ea0752b5a585",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_big_and_loose_mask.png",
+            "target_hash": "51067ed6b5be9cb6ff0944d20ecda621b6116e8e"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_wall_cracks_norm.jpg",
+            "source_hash": "53158f42420c90841eaeb328709de6c2486b30ab",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_wall_cracks_norm.jpg",
+            "target_hash": "ccfd1870d25403523bdc523e7072d407fd992b3a"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_tiny_diff.jpg",
+            "source_hash": "962adc02f1bae46ec70d1a9905d12c8ed5a718b7",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_tiny_diff.jpg",
+            "target_hash": "99f83b0a9a2d97425e1429816c632db80b24edb7"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_big_and_loose_diff.jpg",
+            "source_hash": "e751d57cfa4e606b5c8eaef2b2169108c291f3ef",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_big_and_loose_diff.jpg",
+            "target_hash": "af9a25a1862de53f8c9b9de5de8c8dacffc9ddd4"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_wall_norm.jpg",
+            "source_hash": "355f82ca0ddb856031252cf6586e617bc5595b8f",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_wall_norm.jpg",
+            "target_hash": "19eb6b7f40622158bca9fe42947b2ba5aaa3fcdb"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_tiny_norm.jpg",
+            "source_hash": "67ae25eb1b0ab5214d7cdbcf91c7588199986bd1",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_tiny_norm.jpg",
+            "target_hash": "995858bfc3324fc4c80648631af6e099be934e67"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_big_and_loose_norm.jpg",
+            "source_hash": "e95ca95c2727b8d253e5f02d9b00283ce526571e",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/cobblestone_big_and_loose_norm.jpg",
+            "target_hash": "0877dceabaa84b6929c1fc8d4d0cd3c0a94dbf05"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_woven_leather_multi_R_rough_G_grunge_B_ao.jpg",
+            "source_hash": "c3861d9a4cd5ee2fb8ae41efee9f90ab389a0226",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_woven_leather_multi_R_rough_G_grunge_B_ao.jpg",
+            "target_hash": "3f18c7e620f1c1f67fad668fce716261e4c7d8a8"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_hard_leather_multi_R_rough_G_height_B_ao.jpg",
+            "source_hash": "ad440cff9e1c346f324e343362b199313e9b682f",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_hard_leather_multi_R_rough_G_height_B_ao.jpg",
+            "target_hash": "122dc86f6ad7603c55af69ce881b8b071e3e6940"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/hard_court_multi_R_rough_G_ao_B_height.jpg",
+            "source_hash": "d73b5324fdefff7413659b4c98460fbf7d599115",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/hard_court_multi_R_rough_G_ao_B_height.jpg",
+            "target_hash": "319b5fe38e0cabc6bb9087f0e15622e67777829c"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_woven_leather_norm.jpg",
+            "source_hash": "9acf5259aa3f61d54eb4aa71aa39a085f4926366",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_woven_leather_norm.jpg",
+            "target_hash": "ef3621ba0623f665820217f16f2f9a21bf64c6c6"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_hard_leather_norm.jpg",
+            "source_hash": "b1bf67a23c5d2ae28ec85de136aa717c6f51d98a",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_hard_leather_norm.jpg",
+            "target_hash": "f9dedf62abd7b19452eb98420502ea182c6c522a"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/hard_court_mono_diff.jpg",
+            "source_hash": "4eea60b14497d63c2243e7e7e567c03e6d413c51",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/hard_court_mono_diff.jpg",
+            "target_hash": "a9f2e025fa7fa3a22640af30ea3a5dc342aa7e3d"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/hard_court_norm.jpg",
+            "source_hash": "043db7bf661512489776ffddd7322ebe52a7bd31",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ground/textures/hard_court_norm.jpg",
+            "target_hash": "9a924b07e01bc3bf8d095e2c1be806a7d2d9e70d"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Carpet/textures/long_floor_carpet_multi_R_rough_G_ao.jpg",
+            "source_hash": "28a3f928610026cd064ce6f9b1b55bdaa6f087d2",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Carpet/textures/long_floor_carpet_multi_R_rough_G_ao.jpg",
+            "target_hash": "5f4045fda4b5b4746df387e76017dd922bb2129c"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/textures/Chalk_Paint_Pebbles_multi_R_diff_G_rough_B_height.jpg",
+            "source_hash": "f07f9cd7d339cb292cbfb0fba0c24c848dea61db",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/textures/Chalk_Paint_Pebbles_multi_R_diff_G_rough_B_height.jpg",
+            "target_hash": "308c6c434f9241bde612fd25d12e45191d8964de"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/textures/Chalk_Paint_Strokes_multi_R_diff_G_rough.jpg",
+            "source_hash": "3799de0e278511bd399e9568c9ba1431a48d71e9",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/textures/Chalk_Paint_Strokes_multi_R_diff_G_rough.jpg",
+            "target_hash": "7bc7caae2e51eeb8fdc89efdb8d9eb2503a370c0"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Carpet/textures/long_floor_carpet_diff.jpg",
+            "source_hash": "5d8a618de3fddb9d8c440873e01819e26700b7f4",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Carpet/textures/long_floor_carpet_diff.jpg",
+            "target_hash": "afaa2353f36613fe29ba20ce47b7816ee7784838"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Carpet/textures/long_floor_carpet_norm.jpg",
+            "source_hash": "e0aa8426dea6bd443fa31619c322906ae13193d1",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Carpet/textures/long_floor_carpet_norm.jpg",
+            "target_hash": "352380fc4e26705305dfb07df83c9da32aca686c"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_rough_multi_R_rough_G_ao_B_height.jpg",
+            "source_hash": "2150da5e2c28a7c58b9bf3c185d3e38566aa311a",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_rough_multi_R_rough_G_ao_B_height.jpg",
+            "target_hash": "9a97d49940b3aca7bbeb814b5db5e92edf3c74cb"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_rough_diff.jpg",
+            "source_hash": "6963a92aa9d7bc5f26f3b69976bd7d3feb97c793",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_rough_diff.jpg",
+            "target_hash": "1acb276a216cb1e583ab2686cf63308c9f701d80"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/rosa_beta_multi.jpg",
+            "source_hash": "5615db00afba178d840da994b387c12f24313171",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/rosa_beta_multi.jpg",
+            "target_hash": "caa2c86af0261fc0bba02d5a0b708be7ccdd301b"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_rough_norm.jpg",
+            "source_hash": "9d91c6632389c4e52e32128628b357dafffe7fdd",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plaster/textures/plaster_rough_norm.jpg",
+            "target_hash": "d775e295a6dc69c263f3aafa6efca48cfc75a46e"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/rosa_beta_diff.jpg",
+            "source_hash": "6c741b814d245b2dd11ee525504f442974d1a4e1",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/rosa_beta_diff.jpg",
+            "target_hash": "37a88419c487cd0f7b3f0717cc846ff5bfd3f25a"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/rosa_beta_norm.jpg",
+            "source_hash": "28238e2f8225f564cae8f50081e409acab72a4eb",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/rosa_beta_norm.jpg",
+            "target_hash": "37f0a30cf48374293dd58e896eda83ccab18a691"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/textures/Chalk_Paint_Pebbles_norm.jpg",
+            "source_hash": "4083b7b02b22a7fc80a236904c4f2ebddaa3040c",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/textures/Chalk_Paint_Pebbles_norm.jpg",
+            "target_hash": "e5e4d67103434722fcb4f77e2e75308124367534"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/textures/Chalk_Paint_Strokes_norm.jpg",
+            "source_hash": "e3d52b33f60655a66cfea3aba3aedf5b1ee9f8ee",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/textures/Chalk_Paint_Strokes_norm.jpg",
+            "target_hash": "e4d1213de74f1fdd5ca0f260e7fa42f9a3f87afd"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/foil_crumpled_R_rough1_G_rough2_G_ao.jpg",
+            "source_hash": "df4e36185622ae05f7679719470e0e2522022a50",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/foil_crumpled_R_rough1_G_rough2_G_ao.jpg",
+            "target_hash": "f1b7ba2eab740793de4e53431a3fc12c705d2e79"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/foil_crumpled_R_smudge_G_splotch.jpg",
+            "source_hash": "bb1bc4fe40cdc5f85ddd8c1dac7b2f5826c77947",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/foil_crumpled_R_smudge_G_splotch.jpg",
+            "target_hash": "93bdb36e2c9453f68a22f1d12913ed512a055bd4"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/foil_crumpled_norm.jpg",
+            "source_hash": "3403d58ecb5fb9e76cdd258f0a19f5eb9730d323",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/foil_crumpled_norm.jpg",
+            "target_hash": "41c64a0acfb99a4e1c0280f72153655e6426aa1f"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/multi_R_dust_G_scratches_B_smudges.jpg",
+            "source_hash": "f43be8e5f621ae57967ccd780f4f1c9c57f2b404",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/multi_R_dust_G_scratches_B_smudges.jpg",
+            "target_hash": "4f4b929146d85e7c433b0032ba14613302b91181"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/star_galaxy_multi_R_rough_G_height_B_ao.jpg",
+            "source_hash": "ff6af56612bbdb10eb60b41a0492dc499bbb3cbd",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/star_galaxy_multi_R_rough_G_height_B_ao.jpg",
+            "target_hash": "22902b001af8f724a13ee73d696734cfc0578931"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/star_galaxy_SSS.jpg",
+            "source_hash": "b80c27d1ef95afe5fe2bd5758894872d590db651",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/star_galaxy_SSS.jpg",
+            "target_hash": "193c4945180b11d26a477ea1a9d97192c9781104"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/star_galaxy_diff.jpg",
+            "source_hash": "ea0b167f9c1f56fd60fcdc33a450a422c59dc4cf",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/star_galaxy_diff.jpg",
+            "target_hash": "5530df0b42943cf078f08499a917ade2a1799d88"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/star_galaxy_norm.jpg",
+            "source_hash": "0981be032a59afa96187f1ceaa839acf162cb550",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Stone/textures/star_galaxy_norm.jpg",
+            "target_hash": "718ae64ed85175d337bc3f8d57c925cd733b2a7f"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/cashmere_wool_suiting_R_diff.jpg",
+            "source_hash": "7b5d35136adf610b39d55e5d78434b7244d57b98",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/cashmere_wool_suiting_R_diff.jpg",
+            "target_hash": "b93cdc33ed569d30a400586fe58b92ce6c72d74a"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/french_terry_fabric_warp.png",
+            "source_hash": "72a64af7514ed918de470bfa6bcd60e60274128f",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/french_terry_fabric_warp.png",
+            "target_hash": "a9ae55bf146a74fef11f000fb3957085ff7e317d"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/cashmere_wool_suiting_R_rough_G_ao_B_height.jpg",
+            "source_hash": "03797095cc37c79cca6101442326832a5b966a26",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/cashmere_wool_suiting_R_rough_G_ao_B_height.jpg",
+            "target_hash": "afe7d9ff11b00202b3fe6b3da7fd24b84de57446"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/cashmere_wool_suiting_norm.jpg",
+            "source_hash": "1887170d177d52bd1d8be9c1357569529bf47043",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/cashmere_wool_suiting_norm.jpg",
+            "target_hash": "e6520253c26dc119c4611f69ec232319bd9ea6c8"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/fibers.jpg",
+            "source_hash": "e5e214796cbbc3ba90c6ec3537b6065713b156d5",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/fibers.jpg",
+            "target_hash": "ab2bff55688c627fb5b52f17c640368781093013"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_R_id_G_offs_B_color.png",
+            "source_hash": "5a519c406f5346962ff150e4eaf2058c11b62aa9",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_R_id_G_offs_B_color.png",
+            "target_hash": "53f892eb37b57bd696e5ce698f5a4e81ac9de90b"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_norm.jpg",
+            "source_hash": "e44956418ac2c6cec169d50cbd53bf1d9bceddb9",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_norm.jpg",
+            "target_hash": "f4624e581ceefaa3f87899c03badc4d81a904429"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_multi_R_height_G_edgefade_B_ao.jpg",
+            "source_hash": "7780c6e0a835675185fc62bba5fc24a1674f54a6",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_multi_R_height_G_edgefade_B_ao.jpg",
+            "target_hash": "59de2fc0a26f5b60138c53994af1a59e3453cad8"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_multi_R_noise1_G_noise2_B_craquelure.jpg",
+            "source_hash": "b2a275b4ee407e66167e5bbcb43efc5841a78b52",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_multi_R_noise1_G_noise2_B_craquelure.jpg",
+            "target_hash": "e1354ab2e3ed82017a0c721b76eb9a5186c86045"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_multi_R_rough_G_thickness_B_drops.jpg",
+            "source_hash": "e4dfd3f872eeb9fd988b86137ca15372e7b7a2a0",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/diamond_multi_R_rough_G_thickness_B_drops.jpg",
+            "target_hash": "fde93042a7658b5db5969c2e84600eafce15011d"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/mortar_diff.jpg",
+            "source_hash": "1aca6958bb4090ea43710815319dee0b981fd7d6",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/mortar_diff.jpg",
+            "target_hash": "b244ffb149a2aee81cb70a281077973d9b559df5"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/mortar_norm.jpg",
+            "source_hash": "c78b56eda0d6a26f43ec69d3b4e96ae5d3e87dd9",
+            "target_url": "./omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Ceramic/textures/mortar_norm.jpg",
+            "target_hash": "9dcc79ec3b74105fb6379b93248ae169f4b4271e"
+        }
+    ]
+}

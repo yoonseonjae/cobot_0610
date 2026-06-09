@@ -1,0 +1,77 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized_Red.mdl",
+            "source_hash": "d4682888eeda175a8162d1cbcc8c497ff7e8031a",
+            "target_url": "./SubUSDs/materials/Aluminum_Anodized_Red.mdl",
+            "target_hash": "3ea783f4b2d5e8e9b1a0e7b0da9e02620d7935fd"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/ABS_Soft_Leather.mdl",
+            "source_hash": "1e841abb07c4f2474848a87e47475c21cae44c1b",
+            "target_url": "./SubUSDs/materials/ABS_Soft_Leather.mdl",
+            "target_hash": "fcafaed42a326238f9bf19cf1e622560fbecb8f1"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/Carpaint/Carpaint_Solid.mdl",
+            "source_hash": "e28300278c6afda50e97cc85c732b117210266b4",
+            "target_url": "./SubUSDs/materials/Carpaint_Solid.mdl",
+            "target_hash": "2d88aa9b5144d3759faa5f18f22ac79a36d5b87d"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Vases/Textures/Concrete_Smooth_BaseColor.png",
+            "source_hash": "aaac804b52f290b1a99d50ce17ccdbbb0d295f85",
+            "target_url": "./SubUSDs/textures/Concrete_Smooth_BaseColor.png",
+            "target_hash": "8b0c28e08d09a23fed531fe4a9a27b07418c2a90"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Vases/Textures/Concrete_Smooth_Normal.png",
+            "source_hash": "2023b3dd367937b00360cca1f7b4b7e8b192d406",
+            "target_url": "./SubUSDs/textures/Concrete_Smooth_Normal.png",
+            "target_hash": "42de6c7f082a58a54c3b7031d13d3ca8c9fdec7e"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Vases/Textures/Concrete_Smooth_ORM.png",
+            "source_hash": "e7ea2e1e0b598b82bad30fb7ede1213a745eaf6a",
+            "target_url": "./SubUSDs/textures/Concrete_Smooth_ORM.png",
+            "target_hash": "44dc9a4f24c710e0ea92cab28c9eb63a2bfd05cb"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+            "source_hash": "de44488b874fe59e133ccc7f83fb498638ed0677",
+            "target_url": "./SubUSDs/textures/Aluminum_Anodized_BaseColor.png",
+            "target_hash": "617af844b63a306070110fdbd28ec1f305862c3e"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+            "source_hash": "b232495891e22ae719882aee726876b50787e76e",
+            "target_url": "./SubUSDs/textures/Aluminum_Anodized_ORM.png",
+            "target_hash": "b550c9fd6d02fdd8b047cdce326adbac66ff2c95"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+            "source_hash": "a00b9fece6d6bcfc154265b41cd19488f6af3fa4",
+            "target_url": "./SubUSDs/textures/Aluminum_Anodized_Normal.png",
+            "target_hash": "45abb02e9263ce4796dcf68068c8cbbc4bddeade"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/Carpaint/textures/smudges_scratches_A_rough.jpg",
+            "source_hash": "61ce01ca5a5be8ec5ed5e089baff99c93fec2960",
+            "target_url": "./SubUSDs/textures/smudges_scratches_A_rough.jpg",
+            "target_hash": "8bef51fb2832a8c835af763c31e9af036883cd67"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_soft_leather_multi_R_rough_G_height_B_ao.jpg",
+            "source_hash": "6c46f6637752c5a0576fe24cffbb0eb375748d7f",
+            "target_url": "./SubUSDs/textures/abs_soft_leather_multi_R_rough_G_height_B_ao.jpg",
+            "target_hash": "5db08715f72cc8be1469ba387cee1094ccb43451"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_soft_leather_norm.jpg",
+            "source_hash": "5333bee85ce108ab5d9d0e974fcd74fcc6625aea",
+            "target_url": "./SubUSDs/textures/abs_soft_leather_norm.jpg",
+            "target_hash": "b53d5c738e1e2c3c3bb0815fdf1faedaa3b335ea"
+        }
+    ]
+}
