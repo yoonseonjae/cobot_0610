@@ -144,6 +144,37 @@ class SpotAgent:
             return 999.0
         return ((rx - tx) ** 2 + (ry - ty) ** 2) ** 0.5
 
+    def _navigate_toward(self, tx, ty, max_linear=0.6, turn_gain=1.2):
+        """Nav2 없이 Isaac Sim 물리엔진으로 직접 이동 — _nav_command를 매 스텝 갱신"""
+        import math
+        rx, ry = self._get_robot_xy()
+        if rx is None:
+            return
+        dx = tx - rx
+        dy = ty - ry
+        target_yaw = math.atan2(dy, dx)
+        try:
+            _, q = self._spot.robot.get_world_pose()
+            # q = [w, x, y, z]
+            robot_yaw = math.atan2(
+                2.0 * (q[0] * q[3] + q[1] * q[2]),
+                1.0 - 2.0 * (q[2] ** 2 + q[3] ** 2),
+            )
+        except Exception:
+            robot_yaw = 0.0
+        err = target_yaw - robot_yaw
+        while err > math.pi:  err -= 2 * math.pi
+        while err < -math.pi: err += 2 * math.pi
+        # 정면에 가까울수록 전진, 많이 틀어지면 제자리 회전
+        vx = max_linear * max(0.0, math.cos(err))
+        wz = float(np.clip(turn_gain * err, -1.5, 1.5))
+        self._nav_command[0] = vx
+        self._nav_command[1] = 0.0
+        self._nav_command[2] = wz
+
+    def _stop_nav(self):
+        self._nav_command[:] = 0
+
     # ------------------------------------------------------------------ #
     # robot1 자동 시나리오
     # ------------------------------------------------------------------ #
@@ -159,36 +190,48 @@ class SpotAgent:
 
         if self._auto_state == "IDLE":
             print(f"\n[{self.namespace}] 🔥 화재 감지! 소화기로 이동\n")
-            self._send_nav2_goal(*self.EXTINGUISHER_POS)
             self._auto_state = "NAV_TO_EXTINGUISHER"
             self._nav_wait_t = 0.0
 
         elif self._auto_state == "NAV_TO_EXTINGUISHER":
             self._nav_wait_t += step_size
             dist = self._dist_to(*self.EXTINGUISHER_POS)
-            if dist < 0.8 or self._nav_wait_t > 20.0:
+            if dist < 0.8:
                 print(f"[{self.namespace}] 소화기 도착 ({dist:.2f}m) → 자동 Grasp")
+                self._stop_nav()
                 self._delivery_state = "ARRIVED"
                 self._auto_state = "GRASPING"
                 self._nav_wait_t = 0.0
+            else:
+                self._navigate_toward(*self.EXTINGUISHER_POS)
 
         elif self._auto_state == "GRASPING":
-            # Grasp 상태머신이 FOLD_ARM 완료 → SEARCHING + _has_object=True
+            # 이동 없이 Grasp 상태머신 완료 대기
             if self._delivery_state == "SEARCHING" and self._has_object:
                 print(f"\n[{self.namespace}] 파지 완료 → 화재 위치로 이동\n")
-                self._send_nav2_goal(*self.FIRE_POS)
                 self._auto_state = "NAV_TO_FIRE"
                 self._nav_wait_t = 0.0
 
         elif self._auto_state == "NAV_TO_FIRE":
             self._nav_wait_t += step_size
             dist = self._dist_to(*self.FIRE_POS)
-            if dist < 3.0 or self._nav_wait_t > 40.0:
+            if dist < 3.0:
                 print(f"[{self.namespace}] 화재 위치 도착 ({dist:.2f}m) → 자동 투척")
+                self._stop_nav()
                 self._delivery_state = "DROP_SETTLE"
                 self._grasp_t = 0.0
                 self._auto_state = "THROWING"
                 self._nav_wait_t = 0.0
+            elif self._nav_wait_t > 90.0:
+                # 90초 타임아웃 (실제 이동 불가 상황 대비)
+                print(f"[{self.namespace}] 화재 이동 타임아웃 ({dist:.2f}m) → 강제 투척")
+                self._stop_nav()
+                self._delivery_state = "DROP_SETTLE"
+                self._grasp_t = 0.0
+                self._auto_state = "THROWING"
+                self._nav_wait_t = 0.0
+            else:
+                self._navigate_toward(*self.FIRE_POS)
 
         elif self._auto_state == "THROWING":
             if self._delivery_state == "SEARCHING":
@@ -203,19 +246,20 @@ class SpotAgent:
             return
         # YOLO가 사람 발견 중이면 순찰 일시 정지
         if getattr(self, "_yolo_state", "SEARCHING") != "SEARCHING":
+            self._stop_nav()
             return
 
         self._patrol_wait_t += step_size
         tx, ty = self._patrol_waypoints[self._patrol_idx]
         dist = self._dist_to(tx, ty)
 
-        if dist < 2.0 or self._patrol_wait_t > 30.0:
+        if dist < 2.0 or self._patrol_wait_t > 60.0:
             reason = "도착" if dist < 2.0 else "타임아웃"
             print(f"[{self.namespace}] 웨이포인트 {self._patrol_idx} {reason} → 다음")
             self._patrol_idx = (self._patrol_idx + 1) % len(self._patrol_waypoints)
-            nx, ny = self._patrol_waypoints[self._patrol_idx]
-            self._send_nav2_goal(nx, ny)
             self._patrol_wait_t = 0.0
+        else:
+            self._navigate_toward(tx, ty, max_linear=0.5)
 
     # ------------------------------------------------------------------ #
     # 포즈 파일 퍼블리시
@@ -608,20 +652,21 @@ class SpotAgent:
                 # robot2 순찰 시작
                 self._patrol_active = True
                 tx, ty = self._patrol_waypoints[0]
-                self._send_nav2_goal(tx, ty)
-                print(f"[{self.namespace}] 순찰 시작 → 웨이포인트 0 ({tx}, {ty})")
+                print(f"[{self.namespace}] 순찰 시작 → 웨이포인트 0 ({tx:.2f}, {ty:.2f})")
             return
-
-        total_cmd = base_command + self._nav_command
 
         # robot2: 순찰 + YOLO 상태머신
         if not self.allow_grasp_trigger:
             self._run_patrol_step(step_size)
+            # 순찰이 _nav_command 갱신 후 total_cmd 재계산
+            total_cmd = base_command + self._nav_command
             self._run_yolo_step(step_size, total_cmd)
             return
 
-        # robot1: 자동 시나리오
+        # robot1: 자동 시나리오 (_nav_command 갱신)
         self._run_auto_scenario(step_size)
+        # 자동 시나리오가 _nav_command 갱신 후 total_cmd 재계산
+        total_cmd = base_command + self._nav_command
 
         # -------- robot1 Grasp 상태머신 --------
         if self._delivery_state == "SEARCHING":
