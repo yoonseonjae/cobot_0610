@@ -80,7 +80,6 @@ class SpotAgent:
         self._auto_state    = "IDLE"
         self._nav_wait_t    = 0.0
         self._backup_t      = 0.0   # BACKUP 상태 타이머
-        self._nav_resend_t  = 0.0   # Nav2 goal 재전송 watchdog 타이머
         # 맵 좌표
         self.EXTINGUISHER_POS = (9.83, 0.5)     # 소화기
         self.FIRE_POS         = (0.158, -4.084)  # 2번방 화재
@@ -234,13 +233,11 @@ class SpotAgent:
                 self._stop_nav()
                 print(f"\n[{self.namespace}] 테이블 탈출 완료 → 화재 위치로 Nav2 이동\n")
                 self._send_nav2_goal(*self.FIRE_POS)
-                self._auto_state   = "NAV_TO_FIRE"
-                self._nav_wait_t   = 0.0
-                self._nav_resend_t = 0.0
+                self._auto_state = "NAV_TO_FIRE"
+                self._nav_wait_t = 0.0
 
         elif self._auto_state == "NAV_TO_FIRE":
-            self._nav_wait_t  += step_size
-            self._nav_resend_t += step_size
+            self._nav_wait_t += step_size
             dist = self._dist_to(*self.FIRE_POS)
             if dist < 3.0:
                 print(f"[{self.namespace}] 화재 위치 도착 ({dist:.2f}m) → 자동 투척")
@@ -256,11 +253,6 @@ class SpotAgent:
                 self._grasp_t = 0.0
                 self._auto_state = "THROWING"
                 self._nav_wait_t = 0.0
-            elif self._nav_resend_t > 30.0:
-                # 30초마다 Nav2 goal 재전송 (경로 막힘·spin 탈출)
-                print(f"[{self.namespace}] Nav2 goal 재전송 ({dist:.1f}m 남음)")
-                self._send_nav2_goal(*self.FIRE_POS)
-                self._nav_resend_t = 0.0
 
         elif self._auto_state == "THROWING":
             if self._delivery_state == "SEARCHING":
@@ -288,14 +280,6 @@ class SpotAgent:
             nx, ny = self._patrol_waypoints[self._patrol_idx]
             self._send_nav2_goal(nx, ny)
             self._patrol_wait_t = 0.0
-            self._nav_resend_t  = 0.0
-        else:
-            # 30초마다 현재 웨이포인트 goal 재전송 (Nav2 spin·정지 탈출)
-            self._nav_resend_t += step_size
-            if self._nav_resend_t > 30.0:
-                print(f"[{self.namespace}] Nav2 goal 재전송 ({dist:.1f}m 남음)")
-                self._send_nav2_goal(tx, ty)
-                self._nav_resend_t = 0.0
 
     # ------------------------------------------------------------------ #
     # 포즈 파일 퍼블리시
@@ -612,10 +596,7 @@ class SpotAgent:
                 data, _ = self.udp_sock.recvfrom(1024)
                 if len(data) >= 12:
                     vx, vy, wz = struct.unpack("fff", data[:12])
-                    # RL 정책 안정성: wz 과도 시 gait 붕괴 방지
-                    wz = float(np.clip(wz, -0.3, 0.3))
-                    vx = float(np.clip(vx, -0.6, 0.6))
-                    vy = float(np.clip(vy, -0.3, 0.3))
+                    # Nav2 명령을 그대로 전달 (원본 동작 — 클램핑 시 Nav2와 desync)
                     self._nav_command[0] = vx
                     self._nav_command[1] = vy
                     self._nav_command[2] = wz
