@@ -349,6 +349,7 @@ class SpotSimulationRunner:
                     set_radius(emitter_10cm, 0.1)
                     set_radius(emitter_10m,  0.0001)
                     self.agent1.set_fire_detected()
+                    self.agent2.set_fire_detected()  # robot2 순찰 시작
                 self._sensor_sock.sendto(b"FIRE_TRUE", self._bridge_sensor_address)
 
             else:
