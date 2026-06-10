@@ -80,6 +80,7 @@ class SpotAgent:
         self._auto_state  = "IDLE"
         self._nav_wait_t  = 0.0
         self._backup_t    = 0.0   # BACKUP 상태 타이머
+        self._nav_idle_t  = 0.0   # Nav2 cmd_vel 없을 때 직접 이동 폴백 타이머
         # 맵 좌표
         self.EXTINGUISHER_POS = (9.83, 0.5)     # 소화기
         self.FIRE_POS         = (0.158, -4.084)  # 2번방 화재
@@ -223,24 +224,19 @@ class SpotAgent:
                 self._auto_state = "BACKUP"
 
         elif self._auto_state == "BACKUP":
-            # 테이블 충돌 방지: 후진 2.5초 → 우회전 4초 → Nav2 goal 전송
+            # 테이블 충돌 방지: 후진 2.5초 → Nav2 goal 전송
             self._backup_t += step_size
             if self._backup_t < 2.5:
-                # 후진
                 self._nav_command[0] = -0.4
                 self._nav_command[1] = 0.0
                 self._nav_command[2] = 0.0
-            elif self._backup_t < 6.5:
-                # 우회전 (우측이 화재 방향) — 약 90° (4s × 0.4 rad/s ≈ 1.57 rad)
-                self._nav_command[0] = 0.0
-                self._nav_command[1] = 0.0
-                self._nav_command[2] = -0.4
             else:
                 self._stop_nav()
                 print(f"\n[{self.namespace}] 테이블 탈출 완료 → 화재 위치로 Nav2 이동\n")
                 self._send_nav2_goal(*self.FIRE_POS)
                 self._auto_state = "NAV_TO_FIRE"
                 self._nav_wait_t = 0.0
+                self._nav_idle_t = 0.0
 
         elif self._auto_state == "NAV_TO_FIRE":
             self._nav_wait_t += step_size
@@ -259,6 +255,14 @@ class SpotAgent:
                 self._grasp_t = 0.0
                 self._auto_state = "THROWING"
                 self._nav_wait_t = 0.0
+            else:
+                # Nav2 idle 1초 이상이면 직접 이동으로 폴백
+                if np.any(self._nav_command != 0):
+                    self._nav_idle_t = 0.0
+                else:
+                    self._nav_idle_t += step_size
+                    if self._nav_idle_t > 1.0:
+                        self._navigate_toward(*self.FIRE_POS)
 
         elif self._auto_state == "THROWING":
             if self._delivery_state == "SEARCHING":
@@ -286,6 +290,16 @@ class SpotAgent:
             nx, ny = self._patrol_waypoints[self._patrol_idx]
             self._send_nav2_goal(nx, ny)
             self._patrol_wait_t = 0.0
+            self._nav_idle_t = 0.0
+        else:
+            # Nav2 cmd_vel이 1초 이상 없으면 직접 이동으로 폴백
+            # (Nav2 경로 재계획 중, 웨이포인트 도착 직후 등 일시 정지 방지)
+            if np.any(self._nav_command != 0):
+                self._nav_idle_t = 0.0
+            else:
+                self._nav_idle_t += step_size
+                if self._nav_idle_t > 1.0:
+                    self._navigate_toward(tx, ty, max_linear=0.4)
 
     # ------------------------------------------------------------------ #
     # 포즈 파일 퍼블리시
