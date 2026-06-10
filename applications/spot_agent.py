@@ -219,7 +219,7 @@ class SpotAgent:
         elif self._auto_state == "GRASPING":
             # Grasp 상태머신 완료 대기 (이동 없음)
             if self._delivery_state == "SEARCHING" and self._has_object:
-                print(f"\n[{self.namespace}] 파지 완료 → 테이블 탈출(후진+우회전)\n")
+                print(f"\n[{self.namespace}] 파지 완료 → 테이블 탈출(후진)\n")
                 self._backup_t = 0.0
                 self._auto_state = "BACKUP"
 
@@ -256,8 +256,8 @@ class SpotAgent:
                 self._auto_state = "THROWING"
                 self._nav_wait_t = 0.0
             else:
-                # Nav2 idle 1초 이상이면 직접 이동으로 폴백
-                if np.any(self._nav_command != 0):
+                # Nav2 UDP 수신이 없으면 직접 이동으로 폴백 (매 스텝 갱신)
+                if self._udp_received:
                     self._nav_idle_t = 0.0
                 else:
                     self._nav_idle_t += step_size
@@ -292,9 +292,8 @@ class SpotAgent:
             self._patrol_wait_t = 0.0
             self._nav_idle_t = 0.0
         else:
-            # Nav2 cmd_vel이 1초 이상 없으면 직접 이동으로 폴백
-            # (Nav2 경로 재계획 중, 웨이포인트 도착 직후 등 일시 정지 방지)
-            if np.any(self._nav_command != 0):
+            # Nav2 UDP 수신이 없으면 직접 이동으로 폴백 (매 스텝 갱신)
+            if self._udp_received:
                 self._nav_idle_t = 0.0
             else:
                 self._nav_idle_t += step_size
@@ -610,14 +609,20 @@ class SpotAgent:
                 pass
 
         # UDP cmd_vel 수신
+        self._udp_received = False  # 이 스텝에서 Nav2 명령 수신 여부
         try:
             while True:
                 data, _ = self.udp_sock.recvfrom(1024)
                 if len(data) >= 12:
                     vx, vy, wz = struct.unpack("fff", data[:12])
+                    # RL 정책 안정성: wz 과도 시 gait 붕괴 방지 (키보드 0.4 기준)
+                    wz = float(np.clip(wz, -0.5, 0.5))
+                    vx = float(np.clip(vx, -0.8, 0.8))
+                    vy = float(np.clip(vy, -0.4, 0.4))
                     self._nav_command[0] = vx
                     self._nav_command[1] = vy
                     self._nav_command[2] = wz
+                    self._udp_received = True
         except BlockingIOError:
             pass
         except Exception as e:
